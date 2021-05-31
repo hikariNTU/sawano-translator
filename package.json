@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "build:gh": "vue-tsc --noEmit && vite build --base=/sawano-translator/",
     "serve": "vite preview"
   },
   "dependencies": {
